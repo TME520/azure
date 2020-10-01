@@ -1,0 +1,4 @@
+az login
+az group create --name danmakuKonami --location "Australia Southeast"
+templateFile="/home/tme520/Documents/GIT/azure/azuredeploy.json"
+az deployment group create --name danmakuTemplate --resource-group danmakuKonami --template-file $templateFile
