@@ -22,6 +22,9 @@
         },
         "location": "[resourceGroup().location]",
         "kind": "StorageV2",
+        "properties": {
+            "supportsHttpsTrafficOnly": true
+        },
         "sku": {
             "name": "Standard_LRS",
             "tier": "Standard"
